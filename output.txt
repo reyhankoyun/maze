@@ -1,0 +1,110 @@
+Test: 
+xxxxxxxxxxxxxxxxxx x
+x     x       xxxx x
+x xxxxx  xxxxx  xx x
+x xxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+
+No valid path!
+xxxxxxxxxxxxxxxxxx x
+x     x+++++++xxxx x
+x xxxxx++xxxxx  xx x
+x xxxxx+xxxxxxx xx x
+x x+o++++++++xx xx x
+x xxxxxxxxxx+xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+Path: 
+Done!
+
+Test 1: 
+
+xxx xxxxxxxxxxxxxxxx
+x             xxxx x
+x xxxxx xxxxx   xx x
+x xxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+
+Found a path: 
+xxx*xxxxxxxxxxxxxxxx
+x***          xxxx x
+x*xxxxx xxxxx   xx x
+xoxxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+Path: NNEEN
+Done!
+Test 2: 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxx
+x     x       xxxx          x xxxxxxxxxxxxxxxxxxxxx xxxxxxxx
+x xxxxx xxxxx   xx xxxxxxxx x         xxxxxxxxx   x  xxxxxxx
+x xxxxx xxxxxxx xx x          xxxxxxx xx        x x       xx
+x x          xx xx xxxxxxxxxx x       xxxxxx xxxx xxxxxxx xx
+x xxxxxxxxxx xx    x          x              xxxx         xx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+Found a path: 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*xxxxxxxx
+x     x+++++++xxxx++++++++++x+xxxxxxxxxxxxxxxxxxxxx*xxxxxxxx
+x xxxxx+xxxxx+++xx+xxxxxxxx+x+++++++++xxxxxxxxx***x**xxxxxxx
+x xxxxx+xxxxxxx+xx+x++++++++++xxxxxxx+xx++++****x*x ******xx
+x x++++++++++xx+xx+xxxxxxxxxx+x++*****xxxxxx*xxxx*xxxxxxx*xx
+x xxxxxxxxxx+xx++++x++++++++++x++o+++********xxxx*********xx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Path: NEEEESEEEEEEENNEEENEESSSEEEEEEEENNWWWWWNWNN
+Done!
+Test 3: 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x             xxxx          x xxxxxxxxxxxxxxxxxxxxx xxxxxxxx
+x xxxxx xxxxx   xx xxxxxxxx x         xxxxxxxxx   x  xxxxxxx
+x xxxxx xxxxxxx xx x          xxxxxxx xx        x x       xx
+x x          xx xx xxxxxxxxxx x       xxxxxx xxxx xxxxxxx xx
+x xxxxxxxxxx xx    x          x xxxxx        xxxx         xx
+x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxx
+xxxxxxxxxxxxxxxxxx          xxxxxxxxx               xxxxxxxx
+x             xxxx          x xxxxxxxxxxxxxxxxxxxxx xxxxxxxx
+x xxxxx xxxxx   xx xxxxxxxx x         xxxxxxxxx   x  xxxxxxx
+xxxxxxx xxxxxxx xx x          xxxxxxx xx        x x       xx
+x            xx xx xxxxxxxxxx x       xxxxxx xxxx xxxxxxx xx
+x xxxxxxxxxx xx    x          x xxxxx        xxxx         xx
+x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+Found a path: 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x++++++*******xxxx**********x+xxxxxxxxxxxxxxxxxxxxx+xxxxxxxx
+x+xxxxx*xxxxx***xx*xxxxxxxx*x*********xxxxxxxxx***x++xxxxxxx
+x+xxxxx*xxxxxxx*xx*x+++++++***xxxxxxx*xx++++****x*x+++++++xx
+x+x+o***     xx*xx*xxxxxxxxxx x++++++*xxxxxx*xxxx*xxxxxxx+xx
+x+xxxxxxxxxx xx****x          x+xxxxx********xxxx***++++++xx
+x+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*xxxxxxxx
+xxxxxxxxxxxxxxxxxx**********xxxxxxxxx++++++++++++++*xxxxxxxx
+x++++++*******xxxx*++++++++*x+xxxxxxxxxxxxxxxxxxxxx*xxxxxxxx
+x+xxxxx*xxxxx***xx*xxxxxxxx*x*********xxxxxxxxx***x**xxxxxxx
+xxxxxxx*xxxxxxx*xx*x       ***xxxxxxx*xx++++****x*x+******xx
+x*******     xx*xx*xxxxxxxxxx x      *xxxxxx*xxxx*xxxxxxx*xx
+x*xxxxxxxxxx xx****x          x xxxxx********xxxx*********xx
+x*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Path: EEENNNEEEEEESEESSSEEENNNNEEEEEEEEESSEENEEEEEEEESSSEEEEEEENNEEENEESSSEESSSSESEEEEESSWWWWWWWWNNNWWSWWWSSWWWWWWWNNNWWWWWWWWSWWNNNWWWWWWWWWSSSSSWWWNNNWWNWWWWWWSSSWWWWWWSS
+Done!
